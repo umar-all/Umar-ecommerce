@@ -25,7 +25,14 @@ SECRET_KEY = 'django-insecure-faq=yohc@2549p#hqva@l^(g+jk4ft7mklp!8=j73k4xglnjpd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "umar-ecommerce.onrender.com",
+    ".onrender.com",   # 🔥 THIS LINE WAS MISSING
+    "localhost",
+    "127.0.0.1",
+]
+
+
 
 
 # Application definition
